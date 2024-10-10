@@ -1,0 +1,43 @@
+li {
+    padding: 10px;
+    background: #eee;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.button-group {
+    display: flex;
+    gap: 5px;
+}
+
+.check-button, .delete-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.check-button {
+    background-color: #28a745;
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
+
+.check-button:hover {
+    background-color: #218838;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
